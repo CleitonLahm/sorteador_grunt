@@ -40,7 +40,8 @@ input {
   display: block;
   margin: 16px auto 0;
   font-size: 2em;
-  max-width: 120px;
+  border: none;
+  max-width: 200px;
   border-bottom: 2px solid #777;
   background-color: transparent;
   text-align: center;
