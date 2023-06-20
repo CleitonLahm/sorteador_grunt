@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let numeroAleatorio = Math.random() * numeroMaximo;
     numeroAleatorio = Math.floor(numeroAleatorio + 1);
-    document.querySelector('#resultado-valor').innerText = numeroAleatorio;
-    document.querySelector('#resultado').computedStyleMap.display = 'block'
+
+    document.querySelector('.resultado-valor').innerText = numeroAleatorio;
+    document.querySelector('.resultado').style.display = 'block'
   });
 });
